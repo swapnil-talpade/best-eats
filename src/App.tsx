@@ -1,4 +1,5 @@
 import Background from "./components/background";
+import Banner from "./components/banner";
 import Navbar from "./components/navbar";
 import { ThemeProvider } from "./components/theme-context";
 
@@ -8,6 +9,7 @@ export default function App() {
       <ThemeProvider>
         <Background>
           <Navbar />
+          <Banner />
         </Background>
       </ThemeProvider>
     </div>
