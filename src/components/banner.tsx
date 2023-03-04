@@ -1,3 +1,5 @@
+import BannerImage from "../assets/banner.jpg";
+
 const Banner = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4">
@@ -12,7 +14,7 @@ const Banner = () => {
         </div>
         <img
           className="w-full max-h-[500px] object-cover"
-          src="https://images.pexels.com/photos/1556698/pexels-photo-1556698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src={BannerImage}
           alt="banner image"
         />
       </div>
