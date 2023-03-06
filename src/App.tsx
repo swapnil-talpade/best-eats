@@ -6,14 +6,12 @@ import { ThemeProvider } from "./components/theme-context";
 
 export default function App() {
   return (
-    <div className="w-screen h-screen">
-      <ThemeProvider>
-        <Background>
-          <Navbar />
-          <Banner />
-          <Cards />
-        </Background>
-      </ThemeProvider>
-    </div>
+    <ThemeProvider>
+      <Background>
+        <Navbar />
+        <Banner />
+        <Cards />
+      </Background>
+    </ThemeProvider>
   );
 }
